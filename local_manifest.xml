@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <!-- Trees -->
- <project path="device/xiaomi/alioth" name="laleeroy/device_xiaomi_alioth.git" remote="github" revision="12.X" />
- <project path="device/xiaomi/sm8250-common" name="laleeroy/device_xiaomi_sm8250-common.git" remote="github" revision="12.X" />
- <project path="vendor/xiaomi" name="laleeroy/proprietary_vendor_xiaomi.git " remote="github" revision="12.X" />
- <project path="kernel/xiaomi/sm8250" name="laleeroy/Optimus_Drunk_Alioth.git " remote="github" revision="11.0" />
+<!-- Device Trees -->
+    <project name="laleeroy/android_device_xiaomi_mi8937" path="device/xiaomi/mi8937" remote="github" revision="twelve" />
+    <project name="laleeroy/android_device_xiaomi_msm8937-common" path="device/xiaomi/msm8937-common" remote="github" revision="twelve" />
 </manifest>
