@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
  <!-- Trees -->
  <project path="device/xiaomi/alioth" name="laleeroy/device_xiaomi_alioth.git" remote="github" revision="12.X" />
  <project path="device/xiaomi/sm8250-common" name="laleeroy/device_xiaomi_sm8250-common.git" remote="github" revision="12.X" />
  <project path="vendor/xiaomi" name="laleeroy/proprietary_vendor_xiaomi.git " remote="github" revision="12.X" />
  <project path="kernel/xiaomi/sm8250" name="laleeroy/Optimus_Drunk_Alioth.git " remote="github" revision="11.0" />
- 
 </manifest>
