@@ -20,7 +20,7 @@
     <remote name="sw" fetch="https://github.com/snuggywuggy" revision="lineage-19.0"/>
     <remote name="sw-gitlab" fetch="https://gitlab.com/snuggywuggy" revision="lineage-19.0"/>
     <!--  Device Source  -->
-    <project path="device/xiaomi/alioth" name="device_xiaomi_alioth"  remote="sw"/>
+    <project path="device/xiaomi/alioth" name="laleeroy/device_xiaomi_alioth"  remote="github" revision="twelve" />
     <project path="device/xiaomi/alioth-firmware" name="device_xiaomi_alioth-firmware" clone-depth="1" remote="sw-gitlab"/>
     <project path="device/xiaomi/alioth-kernel" name="device_xiaomi_alioth-kernel" clone-depth="1" remote="sw"/>
     <!--  Vendor Source  -->
