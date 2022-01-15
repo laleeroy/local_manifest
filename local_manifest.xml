@@ -5,7 +5,7 @@
     <project name="laleeroy/android_device_xiaomi_msm8937-common" path="device/xiaomi/msm8937-common" remote="github" revision="twelve" />
 
     <!-- Vendor -->
-    <project name="mi-msm8937/proprietary_vendor_xiaomi_mi8937" path="vendor/xiaomi/mi8937" remote="github" revision="lineage-18.1" />
+    <project name="mi-msm8937/proprietary_vendor_xiaomi_ulysse" path="vendor/xiaomi/ulysse" remote="github" revision="lineage-18.1" />
     <project name="mi-msm8937/proprietary_vendor_xiaomi_msm8937-common" path="vendor/xiaomi/msm8937-common" remote="github" revision="twelve" />
 
     <!-- Kernel tree -->
