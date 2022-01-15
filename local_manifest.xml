@@ -3,13 +3,14 @@
 
 	<!-- Remote -->
 	<remote name="laleeroy" fetch="https://github.com/laleeroy" />
+	<remote name="pixel-devices-blobs" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" revision="twelve" />
 
 	<!-- Trees -->
 	<project path="device/xiaomi/dipper" name="device_xiaomi_dipper" remote="laleeroy" revision="twelve"/>
 	<project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" remote="laleeroy" revision="twelve"/>
 
 	<!-- Kernel -->
-	<project path="kernel/xiaomi/polaris" name="kernel_xiaomi_polaris" remote="laleeroy" revision="twelve"/>
+	<project path="kernel/xiaomi/dipper" name="kernel_xiaomi_polaris" remote="laleeroy" revision="twelve"/>
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master"/>
 	
 </manifest>
