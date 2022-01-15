@@ -13,4 +13,6 @@
 	<project path="kernel/xiaomi/dipper" name="kernel_xiaomi_polaris" remote="laleeroy" revision="twelve"/>
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master"/>
 	
+	<!-- Vendor -->
+	<project path="vendor/xiaomi/dipper" name="vendor_xiaomi_dipper" remote="pixel-devices-blobs" revision="twelve"/>
 </manifest>
