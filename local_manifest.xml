@@ -27,7 +27,7 @@
     <project path="vendor/xiaomi/alioth" name="laleeroy/vendor_xiaomi_alioth" remote="github" revision="twelve" />
     <project path="vendor/xiaomi/alioth-vendor" name="vendor_xiaomi_alioth-vendor" clone-depth="1" remote="sw-gitlab"/>
     <!--  Custom repo  -->
-	  <remove-project name="platform_device_aosp_sepolicy" />
-    <project path="device/aosp/sepolicy" name="laleeroy/platform_device_qcom_sepolicy" remote="github" revision="twelve" />
+    <remove-project name="platform_device_aosp_sepolicy" />
+    <project path="device/aosp/sepolicy" name="laleeroy/platform_device_aosp_sepolicy" remote="github" revision="twelve" />
     
 </manifest>
