@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Device Trees -->
-    <project name="laleeroy/device_xiaomi_ulysse" path="device/xiaomi/ulysse" remote="github" revision="twelve" />
-    <project name="laleeroy/device_xiaomi_msm8937-common" path="device/xiaomi/msm8937-common" remote="github" revision="twelve" />
+    <project name="laleeroy/device_xiaomi_ulysse" path="device/xiaomi/ulysse" remote="github" revision="twelve" clone-depth="1" />
+    <project name="laleeroy/device_xiaomi_msm8937-common" path="device/xiaomi/msm8937-common" remote="github" revision="twelve" clone-depth="1" />
 
     <!-- Vendor -->
-    <project name="laleeroy/vendor_xiaomi_ulysse" path="vendor/xiaomi/ulysse" remote="github" revision="twelve" />
-    <project name="laleeroy/vendor_xiaomi_msm8937-common" path="vendor/xiaomi/msm8937-common" remote="github" revision="twelve" />
+    <project name="laleeroy/vendor_xiaomi_ulysse" path="vendor/xiaomi/ulysse" remote="github" revision="twelve" clone-depth="1" />
+    <project name="laleeroy/vendor_xiaomi_msm8937-common" path="vendor/xiaomi/msm8937-common" remote="github" revision="twelve" clone-depth="1" />
 
     <!-- Kernel tree -->
     <project name="mi-msm8937/android_kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937" remote="github" revision="a12/master" clone-depth="1" />
