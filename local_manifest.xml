@@ -17,15 +17,14 @@
 */
  -->
 <manifest>
-    <remote name="sw" fetch="https://github.com/snuggywuggy" revision="lineage-19.0"/>
-    <remote name="sw-gitlab" fetch="https://gitlab.com/snuggywuggy" revision="lineage-19.0"/>
+    <remote name="d-l" fetch="https://gitlab.com/potatodevices" revision="frico-release"/>
     <!--  Device Source  -->
-    <project path="device/xiaomi/alioth" name="laleeroy/device_xiaomi_alioth" remote="github" revision="twelve" />
-    <project path="device/xiaomi/alioth-firmware" name="device_xiaomi_alioth-firmware" clone-depth="1" remote="sw-gitlab"/>
-    <project path="device/xiaomi/alioth-kernel" name="device_xiaomi_alioth-kernel" clone-depth="1" remote="sw"/>
+    <project path="device/xiaomi/alioth" name="laleeroy/device_xiaomi_alioth2" remote="github" revision="twelve" />
+    <project path="device/xiaomi/alioth-firmware" name="device_xiaomi_alioth-firmware" clone-depth="1" remote="d-l"/>
+    <project path="device/xiaomi/alioth-kernel" name="device_xiaomi_alioth-kernel" clone-depth="1" remote="d-l"/>
     <!--  Vendor Source  -->
-    <project path="vendor/xiaomi/alioth" name="laleeroy/vendor_xiaomi_alioth" remote="github" revision="twelve" />
-    <project path="vendor/xiaomi/alioth-vendor" name="vendor_xiaomi_alioth-vendor" clone-depth="1" remote="sw-gitlab"/>
+    <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="d-l" />
+    <project path="vendor/xiaomi/alioth-vendor" name="vendor_xiaomi_alioth-vendor" clone-depth="1" remote="d-l"/>
     <!--  Custom repo  -->
     <remove-project name="platform_device_aosp_sepolicy" />
     <project path="device/aosp/sepolicy" name="laleeroy/platform_device_aosp_sepolicy" remote="github" revision="12.x" />
