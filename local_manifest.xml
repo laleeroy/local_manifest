@@ -11,7 +11,4 @@
 
     <!-- Kernel tree -->
     <project name="mi-msm8937/android_kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937" remote="github" revision="a12/master" clone-depth="1" />
-
-    <!-- Custom Repo -->
-    <project path="vendor/aosp" name="laleeroy/platform_vendor_aosp" remote="github" revision="12.x" clone-depth="1" />
 </manifest>
