@@ -10,5 +10,5 @@
     <project name="android_vendor_xiaomi_msm8937-common" path="vendor/xiaomi/msm8937-common" remote="arcdevices" clone-depth="1" />
 
     <!-- Kernel tree -->
-    <project name="mi-msm8937/android_kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937" remote="github" revision="a12/master" clone-depth="1" />
+    <project name="android_kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937" remote="arcdevices" clone-depth="1" />
 </manifest>
