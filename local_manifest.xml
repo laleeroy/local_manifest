@@ -20,9 +20,9 @@
     <remote name="leeroy" fetch="https://github.com/laleeroy" revision="12"/>
     <remote name="peblobs" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" revision="twelve"/>
     <!--  Device Source  -->
-    <project path="device/xiaomi/sm8250-extras" name="rad-sm8250-extra" remote="leeroy" />
-    <project path="device/xiaomi/alioth" name="rad-alioth" remote="leeroy" />
-    <project path="device/xiaomi/sm8250-common" name="rad-sm8250-common" remote="leeroy" />
+    <project path="device/xiaomi/sm8250-extras" name="sm8250-extra" remote="leeroy" />
+    <project path="device/xiaomi/alioth" name="alioth" remote="leeroy" />
+    <project path="device/xiaomi/sm8250-common" name="sm8250-common" remote="leeroy" />
     <!--  Vendor Source  -->
     <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" clone-depth="1" remote="peblobs" />
     <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" clone-depth="1" remote="peblobs" />
