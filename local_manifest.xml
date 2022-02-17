@@ -18,16 +18,15 @@
  -->
 <manifest>
     <remote name="leeroy" fetch="https://github.com/laleeroy" revision="12"/>
-    <remote name="peblobs" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" revision="twelve"/>
     <!--  Device Source  -->
-    <project path="device/xiaomi/alioth" name="alioth" remote="leeroy" />
-    <project path="device/xiaomi/sm8250-common" name="sm8250-common" remote="leeroy" />
+    <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="leeroy" />
+    <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="leeroy" />
 
     <!--  Vendor Source  -->
-    <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" clone-depth="1" remote="peblobs" />
-    <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" clone-depth="1" remote="peblobs" />
+    <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" clone-depth="1" remote="leeroy" />
+    <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" clone-depth="1" remote="leeroy" />
 
     <!-- Kernel Source  -->
-    <project path="kernel/xiaomi/sm8250" name="laleeroy/Optimus_Drunk_Alioth" remote="github" revision="11.0" clone-depth="1" />
+    <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_alioth" remote="leeroy" clone-depth="1" />
     
 </manifest>
