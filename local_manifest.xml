@@ -17,7 +17,7 @@
 */
  -->
 <manifest>
-    <remote name="leeroy" fetch="https://github.com/laleeroy" revision="12"/>
+    <remote name="leeroy" fetch="https://github.com/laleeroy" revision="twelve"/>
     <!--  Device Source  -->
     <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="leeroy" />
     <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="leeroy" />
