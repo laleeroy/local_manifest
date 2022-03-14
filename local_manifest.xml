@@ -1,0 +1,16 @@
+<manifest>
+    <remote name="leeroy" fetch="https://github.com/laleeroy" />
+    <!--  Device Source  -->
+    <project revision="xd_twelve" path="device/xiaomi/ulysse" name="xd_ulysse" remote="leeroy" />
+    <project revision="xd_twelve" path="device/xiaomi/msm8937-common" name="xd_msm8937-common" remote="leeroy" />
+
+    <!--  Vendor Source  -->
+    <project revision="lineage-18.1" path="vendor/xiaomi/ulysse" name="proprietary_vendor_xiaomi_ulysse" remote="leeroy" />
+    <project revision="lineage-19.0" path="vendor/xiaomi/msm8937-common" name="proprietary_vendor_xiaomi_msm8937-common" remote="leeroy" />
+
+    <!-- Kernel Source  -->
+    <project name="mi-msm8937/android_kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937" remote="github" revision="a12/master" clone-depth="1" />
+
+    <!-- HALs -->
+    <project revision="los" path="hardware/qcom-caf/msm8996" name="msm8996-hals" remote="leeroy" />
+</manifest>
