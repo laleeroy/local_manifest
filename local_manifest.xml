@@ -26,4 +26,7 @@
     <!--  Vendor Source  -->
     <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" clone-depth="1" remote="sw"/>
     <project path="vendor/xiaomi/alioth-vendor" name="vendor_xiaomi_alioth-vendor" clone-depth="1" remote="sw-gitlab"/>    
+    <!--  Custom repo  -->
+    <remove-project name="device_evolution_sepolicy" />
+    <project path="device/evolution/sepolicy" name="laleeroy/device_evolution_sepolicy" remote="github" revision="snow" />
 </manifest>
