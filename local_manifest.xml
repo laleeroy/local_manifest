@@ -14,5 +14,5 @@
     <project name="android_kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937" remote="arcdevices" clone-depth="1" />
 
      <!-- HALs -->
-    <project revision="los" path="hardware/qcom-caf/msm8996" name="msm8996-hals" remote="leeroy" />
+    <project revision="los" path="hardware/qcom-caf/msm8996" name="laleeroy/msm8996-hals" remote="github" />
 </manifest>
