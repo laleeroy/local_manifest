@@ -20,13 +20,13 @@
     <remote name="sw" fetch="https://github.com/snuggywuggy" revision="lineage-19.0"/>
     <remote name="sw-gitlab" fetch="https://gitlab.com/snuggywuggy" revision="lineage-19.0"/>
     <!--  Device Source  -->
-    <project path="device/xiaomi/alioth" name="laleeroy/falioth" remote="github" revision="twelve" />
+    <project path="device/xiaomi/alioth" name="laleeroy/alioth" remote="github" revision="twelve" />
     <project path="device/xiaomi/alioth-firmware" name="device_xiaomi_alioth-firmware" clone-depth="1" remote="sw-gitlab"/>
     <project path="device/xiaomi/alioth-kernel" name="device_xiaomi_alioth-kernel" clone-depth="1" remote="sw"/>
     <!--  Vendor Source  -->
     <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" clone-depth="1" remote="sw"/>
     <project path="vendor/xiaomi/alioth-vendor" name="vendor_xiaomi_alioth-vendor" clone-depth="1" remote="sw-gitlab"/>    
     <!--  Custom repo  -->
-    <remove-project name="device_evolution_sepolicy" />
-    <project path="device/evolution/sepolicy" name="laleeroy/device_evolution_sepolicy" remote="github" revision="snow" />
+    <remove-project name="xd_device_xdroid_sepolicy" />
+    <project path="device/xdroid/sepolicy" name="laleeroy/android_device_lineage_sepolicy" remote="github" revision="xd-sepolicy" />
 </manifest>
